@@ -18,6 +18,7 @@ class Stack{
 		else {
 			++top;
 			array[top]=element;
+			System.out.println("Added element in stack....");
 		}
 	}
 	
@@ -28,6 +29,7 @@ class Stack{
 		else {
 			int ret=array[top];
 			--top;
+			System.out.println("Removed element from stack....");
 			return ret;
 		}
 	}
